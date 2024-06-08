@@ -1,0 +1,11 @@
+{
+  "name": "@nuxtmf/nuxt-module-federation",
+  "version": "0.0.0",
+  "main": "nuxt.ts",
+  "private": true,
+  "dependencies": {
+    "@nuxt/kit": "^3.0.0",
+    "@telenko/node-mf": "^0.0.7",
+    "webpack": "^5.75.0"
+  }
+}

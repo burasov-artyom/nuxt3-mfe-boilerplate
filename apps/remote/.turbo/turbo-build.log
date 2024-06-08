@@ -1,0 +1,86 @@
+
+> remote@0.1.0 build C:\work\me\nuxt3-module-federation-main\apps\remote
+> pnpm run build:client && pnpm run build:server
+
+
+> remote@0.1.0 build:client C:\work\me\nuxt3-module-federation-main\apps\remote
+> vue-cli-service build --dest dist/client
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+All browser targets in the browserslist configuration have supported ES module.
+Therefore we don't build two separate bundles for differential loading.
+
+
+-  Building for production...
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+ DONE  Compiled successfully in 6539ms17:31:34
+
+  File                                Size                Gzipped
+
+  dist\client\js\275.905059bd.js      100.36 KiB          36.78 KiB
+  dist\client\remoteEntry.js          6.74 KiB            2.87 KiB
+  dist\client\js\app.4aaddf1a.js      5.09 KiB            2.29 KiB
+  dist\client\js\685.b29ebf8f.js      0.46 KiB            0.33 KiB
+  dist\client\js\875.4ccd6a74.js      0.35 KiB            0.27 KiB
+  dist\client\css\685.5d266083.css    0.02 KiB            0.04 KiB
+
+  Images and other types of assets omitted.
+  Build at: 2024-05-21T12:31:34.585Z - Hash: b8b62a0c86ea6861 - Time: 6539ms
+
+ DONE  Build complete. The dist\client directory is ready to be deployed.
+ INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html
+       
+
+> remote@0.1.0 build:server C:\work\me\nuxt3-module-federation-main\apps\remote
+> cross-env SSR=true vue-cli-service build --dest dist/server
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+All browser targets in the browserslist configuration have supported ES module.
+Therefore we don't build two separate bundles for differential loading.
+
+
+-  Building for production...
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+ DONE  Compiled successfully in 6675ms17:31:44
+
+  File                                Size                Gzipped
+
+  dist\server\js\275.d1fbadf6.js      100.33 KiB          36.77 KiB
+  dist\server\remoteEntry.js          6.31 KiB            2.76 KiB
+  dist\server\js\app.bc049553.js      4.66 KiB            2.09 KiB
+  dist\server\js\685.e43d8978.js      0.43 KiB            0.32 KiB
+  dist\server\js\875.755bc7fd.js      0.32 KiB            0.25 KiB
+  dist\server\css\685.5d266083.css    0.02 KiB            0.04 KiB
+
+  Images and other types of assets omitted.
+  Build at: 2024-05-21T12:31:44.143Z - Hash: 42faafaf7a41bd37 - Time: 6675ms
+
+ DONE  Build complete. The dist\server directory is ready to be deployed.
+ INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html
+       
