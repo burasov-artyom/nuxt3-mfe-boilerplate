@@ -1,1 +1,3 @@
-# nuxt3-module-federation
+# nuxt3-mfe-boilerplate
+
+Forked project
